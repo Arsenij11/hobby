@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+
+#header {
+    background-color: #101010;
+    height: 100px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: block;
+    color: white;
+}
+
+#logo-container {
+    height: 100px;
+    padding: 30px 15px 30px 50px;
+    width: 8vw;
+}
+
+#logo-container h1 {
+    text-align: left;
+}
+
+#navigation {
+    position: absolute;
+    float: right;
+    top: 20px;
+    right: 50px;
+}
+
+#navigation a{
+    padding: 25px 20px;
+    float: left;
+    display: table;
+    vertical-align: middle;
+    height: 50px;
+    text-decoration: none;
+}
+
+#navigation a li {
+    display: table-cell;
+    color: white;
+    font-size: 20px;
+}
+
+#navigation a:hover {
+    background-color: rgb(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0, 1);
+    text-decoration: underline;
+}
+
+.content:first-of-type {
+    width: auto;
+    height: 401px;
+    margin: 200px 20% 0 20%;
+    display: block;
+    color:#101010;
+}
+
+.content {
+    width: auto;
+    height: 401px;
+    margin: 80px 20% 0 20%;
+    display: block;
+    color:#101010;
+}
+
+.content  img {
+    height: 370px;
+    width: 25vw;
+    float: left;
+}
+
+.content  span {
+    text-transform: uppercase;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.content  span  a{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    color: #101010;
+    text-transform: none;
+}
+
+.content  span  a:hover{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    color: rgb(255, 255, 255, 0.8);
+    background-color: #101010;
+}
+
+#profile_picture {
+    height: 370px;
+    width: 15vw;
+    float: left;
+}
+
+.content span span {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: italic;
+    color: #101010;
+    text-transform: none;
+}
